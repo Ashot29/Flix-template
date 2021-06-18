@@ -1,0 +1,37 @@
+@import 'variables';
+@import 'mixins';
+@import 'nav';
+@import 'heroSection';
+@import 'moviesSection';
+@import 'categories';
+@import 'transformer';
+@import 'pricing';
+@import 'footer';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Cairo", sans-serif;
+    color: $text-color;
+    background-color: $body-bg;
+    padding-top: $nav-height;
+}
+
+.container {
+    max-width: 1920px;
+    padding: 0 40px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: $text-color;
+}

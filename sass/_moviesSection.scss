@@ -1,0 +1,47 @@
+.movies-section {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    .movies-section-movie {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-left: 20px;
+        h2 {
+            margin-bottom: 10px;
+        }
+    }
+    .first-movie {
+        background-image: url('../images/supergirl.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .second-movie {
+        background-image: url('../images/captain-marvel.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .third-movie {
+        background-image: url('../images/demon-slayer.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .fourth-movie {
+        background-image: url('../images/blood-shot.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    // .fifth-movie {
+    //     background-image: url('../images/wanda.jpg');
+    //     background-size: cover;
+    //     background-repeat: no-repeat;
+    // }
+    // .sixth-movie {
+    //     background-image: url('../images/bat-man.jpg');
+    //     background-size: cover;
+    //     background-repeat: no-repeat;
+    // }
+}

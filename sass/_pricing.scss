@@ -1,0 +1,54 @@
+.pricing {
+    padding: 55px 0;
+}
+
+.pricing-header {
+    display: flex;
+    justify-content: center;
+    color: $text-color;
+    margin-bottom: 40px;
+}
+
+.pricing-elements {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing-element {
+    border-top: 5px solid transparent;
+    background-color: #221f1f;
+    width: 32%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.premium {
+    border-top: 5px solid $main-color;
+}
+
+.pricing-element-prices {
+    display: flex;
+    justify-content: space-between;
+    .pricing-class {
+        font-size: 24px;
+    }
+    .price {
+        font-size: 24px;
+        font-weight: 700;
+    }
+}
+.price-duration {
+    font-size: 16px;
+}
+
+.pricing-element-addvantages {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 70px 0;
+    font-size: 20px;
+    line-height: 30px;
+}
+

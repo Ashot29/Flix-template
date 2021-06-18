@@ -1,0 +1,399 @@
+.nav a {
+  color: #ffffff; }
+
+.logo {
+  font-size: 2rem;
+  font-weight: 900; }
+
+.main-color {
+  color: #c0392b;
+  text-transform: uppercase; }
+
+.nav-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: #000; }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center; }
+  .nav .nav-menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0 20px; }
+    .nav .nav-menu li {
+      margin-left: 30px; }
+    .nav .nav-menu a {
+      text-transform: uppercase;
+      font-weight: 700; }
+    .nav .nav-menu .search {
+      padding: 5px;
+      border-radius: 20px;
+      outline: none;
+      border: 1px solid #c0392b;
+      color: #c0392b; }
+
+.hero-section {
+  padding: 80px; }
+  .hero-section .hero {
+    width: 40%; }
+  .hero-section .movie-name {
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: 900;
+    margin-bottom: 15px; }
+
+.panther {
+  background-image: url("../images/panther.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.movie-description {
+  font-size: 0.8rem;
+  align-items: center;
+  margin-bottom: 25px; }
+  .movie-description i {
+    margin-right: 3px;
+    color: #c0392b; }
+  .movie-description span {
+    margin-right: 8px; }
+
+.movie-information {
+  font-size: 1.15rem;
+  line-height: 1.5rem;
+  margin-bottom: 25px; }
+
+.btn {
+  background-color: #c0392b;
+  border: 0;
+  color: #ffffff;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 10px;
+  padding: 15px 20px; }
+  .btn i {
+    margin: 0 20px; }
+
+.movies-section {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap; }
+  .movies-section .movies-section-movie {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 20px; }
+    .movies-section .movies-section-movie h2 {
+      margin-bottom: 10px; }
+  .movies-section .first-movie {
+    background-image: url("../images/supergirl.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .movies-section .second-movie {
+    background-image: url("../images/captain-marvel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .movies-section .third-movie {
+    background-image: url("../images/demon-slayer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .movies-section .fourth-movie {
+    background-image: url("../images/blood-shot.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.categories {
+  padding: 75px 0; }
+  .categories .pages-div {
+    display: flex;
+    justify-content: center; }
+    .categories .pages-div .pages {
+      display: flex; }
+      .categories .pages-div .pages :first-child {
+        border-bottom-left-radius: 8px;
+        border-top-left-radius: 8px; }
+      .categories .pages-div .pages :last-child {
+        border-bottom-right-radius: 8px;
+        border-top-right-radius: 8px; }
+      .categories .pages-div .pages .selected {
+        background-color: #c0392b; }
+      .categories .pages-div .pages li {
+        list-style-type: none;
+        padding: 5px;
+        border: 1px solid white; }
+        .categories .pages-div .pages li a {
+          text-decoration: none;
+          color: #ffffff; }
+  .categories .movie-category {
+    margin-bottom: 40px; }
+    .categories .movie-category .movie-category-header {
+      margin-bottom: 30px;
+      text-transform: uppercase;
+      padding-left: 20px;
+      font-size: 1.5rem;
+      font-weight: 700;
+      border-left: 4px solid #c0392b;
+      display: flex;
+      align-items: center; }
+    .categories .movie-category .latest-movies-list {
+      display: flex;
+      width: 100%;
+      height: 400px;
+      justify-content: space-between; }
+      .categories .movie-category .latest-movies-list .latest-movie {
+        width: 24%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 10px; }
+        .categories .movie-category .latest-movies-list .latest-movie h2 {
+          margin-bottom: 10px; }
+      .categories .movie-category .latest-movies-list .movie_1 {
+        background-image: url("../images/theatre-dead.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .categories .movie-category .latest-movies-list .movie_2 {
+        background-image: url("../images/transformer.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .categories .movie-category .latest-movies-list .movie_3 {
+        background-image: url("../images/resident-evil.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .categories .movie-category .latest-movies-list .movie_4 {
+        background-image: url("../images/captain-marvel.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .categories .movie-category .latest-movies-list .movie_5 {
+        background-image: url("../images/hunter-killer.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .categories .movie-category .latest-movies-list .movie_6 {
+        background-image: url("../images/call.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .categories .movie-category .latest-movies-list .movie_7 {
+        background-image: url("../images/call.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+    .categories .movie-category .latest-series-list {
+      display: flex;
+      width: 100%;
+      height: 400px;
+      justify-content: space-between; }
+      .categories .movie-category .latest-series-list .latest-movie {
+        width: 24%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 10px; }
+        .categories .movie-category .latest-series-list .latest-movie h2 {
+          margin-bottom: 10px; }
+      .categories .movie-category .latest-series-list .latest-serie-1 {
+        background-image: url("../images/supergirl.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .categories .movie-category .latest-series-list .latest-serie-2 {
+        background-image: url("../images/stranger-thing.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .categories .movie-category .latest-series-list .latest-serie-3 {
+        background-image: url("../images/star-trek.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .categories .movie-category .latest-series-list .latest-serie-4 {
+        background-image: url("../images/penthouses.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .categories .movie-category .latest-series-list .latest-serie-5 {
+        background-image: url("../images/mandalorian.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .categories .movie-category .latest-series-list .latest-serie-6 {
+        background-image: url("../images/the-falcon.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .categories .movie-category .latest-series-list .latest-serie-7 {
+        background-image: url("../images/wanda.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+    .categories .movie-category .latest-cartoons-list {
+      width: 100%;
+      height: 900px; }
+      .categories .movie-category .latest-cartoons-list .row {
+        display: flex;
+        justify-content: space-between;
+        height: 45%;
+        margin-bottom: 40px; }
+      .categories .movie-category .latest-cartoons-list .latest-movie {
+        width: 24%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 10px; }
+        .categories .movie-category .latest-cartoons-list .latest-movie h2 {
+          margin-bottom: 10px; }
+      .categories .movie-category .latest-cartoons-list .latest-cartoon-1 {
+        background-image: url("../images/croods.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .categories .movie-category .latest-cartoons-list .latest-cartoon-2 {
+        background-image: url("../images/dragon.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .categories .movie-category .latest-cartoons-list .latest-cartoon-3 {
+        background-image: url("../images/over-the-moon.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .categories .movie-category .latest-cartoons-list .latest-cartoon-4 {
+        background-image: url("../images/weathering.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .categories .movie-category .latest-cartoons-list .latest-cartoon-5 {
+        background-image: url("../images/your-name.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      .categories .movie-category .latest-cartoons-list .latest-cartoon-6 {
+        background-image: url("../images/coco.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+
+.transformer {
+  background-image: url("../images/transformers.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.pricing {
+  padding: 55px 0; }
+
+.pricing-header {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  margin-bottom: 40px; }
+
+.pricing-elements {
+  display: flex;
+  justify-content: space-between; }
+
+.pricing-element {
+  border-top: 5px solid transparent;
+  background-color: #221f1f;
+  width: 32%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+
+.premium {
+  border-top: 5px solid #c0392b; }
+
+.pricing-element-prices {
+  display: flex;
+  justify-content: space-between; }
+  .pricing-element-prices .pricing-class {
+    font-size: 24px; }
+  .pricing-element-prices .price {
+    font-size: 24px;
+    font-weight: 700; }
+
+.price-duration {
+  font-size: 16px; }
+
+.pricing-element-addvantages {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 70px 0;
+  font-size: 20px;
+  line-height: 30px; }
+
+.fa-video {
+  color: #c0392b;
+  margin-right: 5px; }
+
+.footer {
+  background-color: #221f1f;
+  padding: 80px 0; }
+
+.footer-elements {
+  display: flex;
+  justify-content: space-between; }
+
+.footer-lists {
+  width: 32%;
+  display: flex;
+  justify-content: space-between; }
+  .footer-lists ul li {
+    list-style-type: none;
+    margin-bottom: 10px; }
+    .footer-lists ul li a:hover {
+      color: #c0392b; }
+  .footer-lists ul .list-header {
+    font-weight: 700; }
+
+.footer-info {
+  width: 33%; }
+
+.footer-info-header {
+  margin-bottom: 10px; }
+
+.social-list {
+  margin-top: 20px; }
+
+.soc-logo {
+  background-color: #fff;
+  border-radius: 100%;
+  padding: 4px;
+  color: #c0392b; }
+
+.soc-logo:hover {
+  background-color: #c0392b;
+  color: #fff; }
+
+.footer-download-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; }
+  .footer-download-links .download-header {
+    font-weight: 700; }
+
+.copyright {
+  padding: 10px;
+  border-top: 1px solid #181616;
+  background-color: #221f1f;
+  text-align: center; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 16px; }
+
+body {
+  font-family: "Cairo", sans-serif;
+  color: #ffffff;
+  background-color: #181616;
+  padding-top: 60px; }
+
+.container {
+  max-width: 1920px;
+  padding: 0 40px;
+  margin: auto; }
+
+a {
+  text-decoration: none;
+  color: #ffffff; }

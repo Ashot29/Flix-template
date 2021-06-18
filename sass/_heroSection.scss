@@ -1,0 +1,47 @@
+.hero-section {
+    padding: 80px;
+    // background-image: url('../images/panther.jpg');
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-position: center;
+    .hero {
+        width: 40%;
+        
+    }
+    .movie-name {
+        font-size: 5rem;
+        line-height: 5rem;
+        font-weight: 900;
+        margin-bottom: 15px;
+    }
+}
+
+.panther {
+    background-image: url('../images/panther.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.movie-description {
+    font-size: 0.8rem;
+    align-items: center;
+    margin-bottom: 25px;
+    i {
+        margin-right: 3px;
+        color: $main-color;
+    }
+    span {
+        margin-right: 8px;
+    }
+}
+
+.movie-information {
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.btn {
+    @include btn;
+}

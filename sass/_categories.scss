@@ -1,0 +1,177 @@
+.categories {
+    padding: 75px 0;
+
+    .pages-div {
+        display: flex;
+        justify-content: center;
+        .pages {
+            display: flex;
+            :first-child {
+                border-bottom-left-radius: 8px;
+                border-top-left-radius: 8px;
+            }
+            :last-child {
+                border-bottom-right-radius: 8px;
+                border-top-right-radius: 8px;
+            }
+            .selected {
+                background-color: $main-color;
+            }
+            li {
+                list-style-type: none;
+                padding: 5px;
+                border: 1px solid white;
+                a {
+                    text-decoration: none;
+                    color: $text-color;
+                }
+            }
+        }
+    }    
+
+    .movie-category {
+        margin-bottom: 40px;
+
+        .movie-category-header {
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            padding-left: 20px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            border-left: 4px solid $main-color;
+            display: flex;
+            align-items: center;
+        }
+
+        .latest-movies-list {
+            display: flex;
+            width: 100%;
+            height: 400px;
+            justify-content: space-between;
+
+            .latest-movie {
+                width: 24%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                padding: 10px;
+                h2 {
+                    margin-bottom: 10px;
+                }
+            }
+
+            .movie_1 {
+                @include img('../images/theatre-dead.jpg');
+            }
+
+            .movie_2 {
+                @include img('../images/transformer.jpg');
+            }
+
+            .movie_3 {
+                @include img('../images/resident-evil.jpg');
+            }
+
+            .movie_4 {
+                @include img('../images/captain-marvel.jpg');
+            }
+
+            .movie_5 {
+                @include img('../images/hunter-killer.jpg');
+            }
+            .movie_6 {
+                @include img('../images/call.jpg');
+            }
+
+            .movie_7 {
+                @include img('../images/call.jpg');
+            }
+
+        }
+
+        .latest-series-list {
+            display: flex;
+            width: 100%;
+            height: 400px;
+            justify-content: space-between;
+
+            .latest-movie {
+                width: 24%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                padding: 10px;
+                h2 {
+                    margin-bottom: 10px;
+                }
+            }
+
+            
+            .latest-serie-1 {
+                @include img('../images/supergirl.jpg');
+            }
+
+            .latest-serie-2 {
+                @include img('../images/stranger-thing.jpg');
+            }
+
+            .latest-serie-3 {
+                @include img('../images/star-trek.jpg');
+            }
+            .latest-serie-4 {
+                @include img('../images/penthouses.jpg');
+            }
+            .latest-serie-5 {
+                @include img('../images/mandalorian.jpg');
+            }
+            .latest-serie-6 {
+                @include img('../images/the-falcon.jpg');
+            }
+            .latest-serie-7 {
+                @include img('../images/wanda.jpg');
+            }
+        }
+
+        .latest-cartoons-list {
+            width: 100%;
+            height: 900px;
+
+            .row {
+                display: flex;
+                justify-content: space-between;
+                height: 45%;
+                margin-bottom: 40px;
+            }
+
+            .latest-movie {
+                width: 24%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                padding: 10px;
+                h2 {
+                    margin-bottom: 10px;
+                }
+            }
+
+            .latest-cartoon-1 {
+                @include img('../images/croods.jpg');
+            }
+            .latest-cartoon-2 {
+                @include img('../images/dragon.jpg');
+            }
+            .latest-cartoon-3 {
+                @include img('../images/over-the-moon.jpg');
+            }
+            .latest-cartoon-4 {
+                @include img('../images/weathering.jpg');
+            }
+            .latest-cartoon-5 {
+                @include img('../images/your-name.jpg');
+            }
+            .latest-cartoon-6 {
+                @include img('../images/coco.jpg');
+            }
+        }
+    }
+}
